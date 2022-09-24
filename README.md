@@ -4,7 +4,33 @@
 
 ## Algorithm
 
-***Algorithm*** berasal dari kata bahasa inggris yang memiliki arti permainan. Menurut [Kominfo](https://kominfo.malangkab.go.id/pd/detail?title=pengaruh-game-dalam-kehidupan-sehari-hari), Game adalah suatu bentuk permainan atau olahraga, terutama yang kompetitif yang dimainkan menurut aturan dan diputuskan oleh keterampilan, kekuatan, atau keberuntungan. 
+***Algorithm*** berasal dari kata bahasa inggris yang memiliki arti permainan. Contoh: Menebak angka. Cara membuat sebuah algoritma:
+- Permasalahan pernyataan harus jelas
+- Informasi (input) yang didapat dan hasil (output) yang diharapkan harus jelas.
+- Membuat instruksi dan mengeksekusi sesuai urutan.
+- Diujicoba (testing) agar memeriksa apakah algoritma sudah menghasilkan hasil (output) yang sesuai.
+
+## Data Structure
+
+***Data Structure*** berasal dari kata bahasa inggris yang memiliki arti struktur data. Struktur data adalah cara dan teknik yang berbeda untuk menyimpan dan mengoperasikan data dalam komputer. Data struktur hidup sementara di RAM laptop yang artinya bersifat sementara. Data struktur memiliki posisi karena adanya relasi atau hubungan antara data yang satu dengan yang lainnya.
+
+Operasi dasar pada struktur data:
+- Mengakses dan membaca data
+- Mencari data
+- Menambah data
+- Menghapus data
+
+Bentuk umum struktur data:
+- Array / list
+- Hashmap / Hashtable / Dictionary (pada C#): Pengimplementasiannya cukup kompleks
+- Queue
+- Stack 
+- Linked List, Tree, dan Heap.
+
+<h2>Array / List</h2>
+**Array** adalah struktur data yang dimulai dari indeks 0, 1, 2, dst. dan harus bertipe data sejenis. Pada beberapa bahasa pemrograman dapat berbeda jenis, yaitu disebut array generik. Array di C# bersifat fix, jika ingin menggunakan dynamic array di C# dapat menggunakan list.
+
+
 <p align="center"><img width="40%" src="https://upload.wikimedia.org/wikipedia/commons/0/04/Chris-Crawford.jpg"> &nbsp; &nbsp; <img width="40%" src="http://www.atari2600.com.br/Midia/Atari/Roms/000461.gif"></p>
 
 Menurut [Chris Crawford](https://en.wikipedia.org/wiki/Chris_Crawford_(game_designer)), ( [Atari](https://en.wikipedia.org/wiki/Atari) Game Designer ), terdapat 5 tahapan untuk mendefinisikan sebuah game: 
