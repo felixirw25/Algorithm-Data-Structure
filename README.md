@@ -28,6 +28,7 @@ Bentuk umum struktur data:
 - Linked List, Tree, dan Heap.
 
 <h2>Array</h2>
+
 **Array** adalah struktur data yang dimulai dari indeks 0, 1, 2, dst. dan harus bertipe data sejenis. Pada beberapa bahasa pemrograman dapat berbeda jenis, yaitu disebut array generik. Array di C# bersifat fix, jika ingin menggunakan dynamic array di C# dapat menggunakan list.
 
 Contoh Pengimplementasian:
@@ -84,6 +85,7 @@ Output:
 <p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192108098-9e802256-2e5e-433a-a447-4ebdcba8b678.png"> </p>
 
 <h2>List</h2>
+
 **List** adalah .
 
 Contoh Pengimplementasian:
@@ -146,62 +148,13 @@ Output:
 <p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192108201-36c06ebe-ba7c-47da-b588-f3c2a744bd48.png"> </p>
 
 <h2>Dictionary</h2>
+
 **Dictionary** adalah struktur data yang menyimpan kumpulan nilai/data dalam format pencarian nilai kunci. **Dictionary** menyediakan kunci dan hashmap akan mengembalikan nilai terkait. Contoh Pengimplementasian:
+
 ```
-class Enemy
-{
-    public string Name;
-    public int Health;
 
-    public Enemy(string name, int health)
-    {
-        this.Name = name;
-        this.Health = health;
-    }
-}
-
-class Program
-{
-    static void Main()
-    {
-        Enemy Abenk = new Enemy("Abenk", 10);
-        Enemy Budi = new Enemy("Budi", 20);
-        Enemy Coki = new Enemy("Coki", 30);
-        Enemy Dipa = new Enemy("Dipa", 40);
-        Enemy Erlangga = new Enemy("Erlangga", 50);
-
-        List<Enemy> enemyList = new List<Enemy>{
-            Abenk, 
-            Budi,
-            Coki,
-            Dipa,
-            new Enemy("Coki", 30),
-        };
-
-        Console.Clear();
-        // NB: list tidak memiliki length, jadi pakai count
-        Console.WriteLine(enemyList.Count);
-
-        // Mengakses data
-        Console.WriteLine(enemyList[2].Name);
-
-        // Menambah data di list
-        enemyList.Add(Erlangga);
-
-        // Menghapus data di list
-        // enemyList.Remove(Erlangga);
-
-        // Mencari data di list (-1 = tidak ditemukan)
-        Console.WriteLine(enemyList.Contains(Erlangga));
-        Console.WriteLine(enemyList.IndexOf(Erlangga));
-
-        // NB: jika ada dua objek dengan nama yang sama, ketika diserang akan mengurangi nyawa sebanyak dua kali
-
-        // Reference type, berbeda karena perbedaan hashcode
-        Console.WriteLine(enemyList[2].GetType==enemyList[4].GetHashCode);
-        }
-}
 ```
+
 Output:
 <p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192108201-36c06ebe-ba7c-47da-b588-f3c2a744bd48.png"> </p>
 
