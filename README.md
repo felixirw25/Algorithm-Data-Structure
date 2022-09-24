@@ -21,7 +21,7 @@ Operasi dasar pada struktur data:
 - Menghapus data
 
 Bentuk umum struktur data:
-- Array / list
+- Array / List
 - Hashmap / Hashtable / Dictionary (pada C#): Pengimplementasiannya cukup kompleks
 - Queue
 - Stack 
@@ -86,7 +86,7 @@ Output:
 
 <h2>List</h2>
 
-**List** adalah .
+**List** adalah struktur data yang digunakan untuk menyimpan kumpulan objek/nilai atau disebut elemen list. Elemen pada list tersimpan menurut urutan tertentu. Isi sebuah list dapat dimanipulasi sehingga dapat berubah (mutable), baik ditambah maupun dikurangi.
 
 Contoh Pengimplementasian:
 ```
@@ -149,7 +149,9 @@ Output:
 
 <h2>Dictionary</h2>
 
-**Dictionary** adalah struktur data yang menyimpan kumpulan nilai/data dalam format pencarian nilai kunci. **Dictionary** menyediakan kunci dan hashmap akan mengembalikan nilai terkait. Contoh Pengimplementasian:
+**Dictionary** adalah struktur data yang menyimpan kumpulan nilai/data dalam format pencarian nilai kunci. **Dictionary** menyediakan kunci dan hashmap akan mengembalikan nilai terkait. 
+
+Contoh Pengimplementasian:
 
 ```
 
