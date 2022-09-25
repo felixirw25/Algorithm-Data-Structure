@@ -29,7 +29,7 @@ Bentuk umum struktur data:
 
 <h2>Array</h2>
 
-**Array** adalah struktur data yang dimulai dari indeks 0, 1, 2, dst. dan harus bertipe data sejenis. Pada beberapa bahasa pemrograman dapat berbeda jenis, yaitu disebut array generik. Array di C# bersifat fix, jika ingin menggunakan dynamic array di C# dapat menggunakan list.
+**Array** adalah struktur data yang memiliki satu indeks yang dimulai dari 0, 1, 2, dst. dan harus bertipe data sejenis. Pada beberapa bahasa pemrograman dapat berbeda jenis, yaitu disebut array generik. Array di C# bersifat fix, jika ingin menggunakan dynamic array di C# dapat menggunakan list.
 
 Contoh Pengimplementasian:
 ```
@@ -83,6 +83,63 @@ class Program
 ```
 Output:
 <p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192108098-9e802256-2e5e-433a-a447-4ebdcba8b678.png"> </p>
+
+**Array Multidimensi** adalah sebuah variabel yang menyimpan sekumpulan data yang memiliki tipe data sama dan elemen yang akan diakses melalui banyak indeks. 
+
+Contoh Pengimplementasian:
+```
+class Program
+{
+    static void Main()
+    {
+        int[,] multiArray = new int[2,3] {
+            {1,2,3},
+            {4,5,6},
+        };
+
+        // Membaca data pada multidimensional array
+        Console.WriteLine(multiArray[1,2]);
+
+        // Mengakses data pada multidimensional array
+        multiArray[1,2] = 7;
+        Console.WriteLine(multiArray[1,2]);
+
+        // Mencari data pada multidimensional array
+        Console.WriteLine(multiArray[0,2].Equals(3));
+    }
+}
+```
+Output:
+<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192130723-231a9ce8-06b1-456f-be08-b8222a17dc66.png"> </p>
+
+**Jagged Array** adalah sebuah variabel yang menyimpan sekumpulan data yang memiliki tipe data sama dan elemen yang akan diakses melalui banyak indeks, namun memiliki ukuran elemen yang berbeda. 
+
+Contoh Pengimplementasian:
+```
+class Program
+{
+    static void Main()
+    {
+        int[][] jaggedArray = new int[][]{
+            new int[] {1, 2},
+            new int[] {2, 3, 4},
+            new int[] {5},
+        };
+
+        // Membaca data pada multidimensional array
+        Console.WriteLine(jaggedArray[1][2]);
+
+        // Mengakses data pada multidimensional array
+        jaggedArray[1][2] = 6;
+        Console.WriteLine(jaggedArray[1][2]);
+
+        // Mencari data pada multidimensional array
+        Console.WriteLine(jaggedArray[1][2].Equals(4));
+    }
+}
+```
+Output:
+<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192131067-2028d055-fbcc-4e59-bdda-b6ffbba2dd0a.png"> </p>
 
 <h2>List</h2>
 
@@ -146,6 +203,23 @@ class Program
 ```
 Output:
 <p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192108201-36c06ebe-ba7c-47da-b588-f3c2a744bd48.png"> </p>
+
+**List of List** adalah . 
+
+Contoh Pengimplementasian:
+```
+class Program
+{
+    static void Main()
+    {
+        
+    }
+}
+```
+Output:
+<p align="center"><img width="100%" src=""> </p>
+
+
 
 <h2>Dictionary</h2>
 
