@@ -110,7 +110,7 @@ class Program
 }
 ```
 Output:
-<p><img width="50%" src="https://user-images.githubusercontent.com/113922230/192130723-231a9ce8-06b1-456f-be08-b8222a17dc66.png"> </p>
+<p> <img width="50%" src="https://user-images.githubusercontent.com/113922230/192130723-231a9ce8-06b1-456f-be08-b8222a17dc66.png"> </p>
 
 **Jagged Array** adalah sebuah variabel yang menyimpan sekumpulan data yang memiliki tipe data sama dan elemen yang akan diakses melalui banyak indeks, namun memiliki ukuran elemen yang berbeda. 
 
@@ -139,7 +139,7 @@ class Program
 }
 ```
 Output:
-<img width="50%" src="https://user-images.githubusercontent.com/113922230/192131067-2028d055-fbcc-4e59-bdda-b6ffbba2dd0a.png">
+<p> <img width="50%" src="https://user-images.githubusercontent.com/113922230/192131067-2028d055-fbcc-4e59-bdda-b6ffbba2dd0a.png"> </p>
 
 <h2>List</h2>
 
@@ -202,7 +202,7 @@ class Program
 }
 ```
 Output:
-<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192108201-36c06ebe-ba7c-47da-b588-f3c2a744bd48.png"> </p>
+<p><img width="50%" src="https://user-images.githubusercontent.com/113922230/192108201-36c06ebe-ba7c-47da-b588-f3c2a744bd48.png"> </p>
 
 <h2>Dictionary</h2>
 
@@ -264,7 +264,7 @@ class Program
 ```
 
 Output:
-<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192109048-3aaba400-1292-441e-825b-e11f6e687d80.png"> </p>
+<p><img width="50%" src="https://user-images.githubusercontent.com/113922230/192109048-3aaba400-1292-441e-825b-e11f6e687d80.png"> </p>
 
 <h2>Queue</h2>
 
@@ -322,7 +322,7 @@ class Program
 ```
 
 Output:
-<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192109517-64971848-e011-4d44-b570-2718f27e2297.png"> </p>
+<p><img width="50%" src="https://user-images.githubusercontent.com/113922230/192109517-64971848-e011-4d44-b570-2718f27e2297.png"> </p>
 
 <h2>Stack</h2>
 
@@ -389,7 +389,7 @@ class Program
 ```
 
 Output:
-<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192109767-be016eff-2839-49e6-95d4-044793e92d78.png"> </p>
+<p><img width="50%" src="https://user-images.githubusercontent.com/113922230/192109767-be016eff-2839-49e6-95d4-044793e92d78.png"> </p>
 
 
 <br/>
