@@ -204,23 +204,6 @@ class Program
 Output:
 <p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192108201-36c06ebe-ba7c-47da-b588-f3c2a744bd48.png"> </p>
 
-**List of List** adalah . 
-
-Contoh Pengimplementasian:
-```
-class Program
-{
-    static void Main()
-    {
-        
-    }
-}
-```
-Output:
-<p align="center"><img width="100%" src=""> </p>
-
-
-
 <h2>Dictionary</h2>
 
 **Dictionary** adalah struktur data yang menyimpan kumpulan nilai/data dalam format pencarian nilai kunci. **Dictionary** menyediakan kunci dan hashmap akan mengembalikan nilai terkait. 
