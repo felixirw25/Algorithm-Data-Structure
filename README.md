@@ -110,7 +110,7 @@ class Program
 }
 ```
 Output:
-<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192130723-231a9ce8-06b1-456f-be08-b8222a17dc66.png"> </p>
+<p><img width="50%" src="https://user-images.githubusercontent.com/113922230/192130723-231a9ce8-06b1-456f-be08-b8222a17dc66.png"> </p>
 
 **Jagged Array** adalah sebuah variabel yang menyimpan sekumpulan data yang memiliki tipe data sama dan elemen yang akan diakses melalui banyak indeks, namun memiliki ukuran elemen yang berbeda. 
 
@@ -139,7 +139,7 @@ class Program
 }
 ```
 Output:
-<p align="center"><img width="100%" src="https://user-images.githubusercontent.com/113922230/192131067-2028d055-fbcc-4e59-bdda-b6ffbba2dd0a.png"> </p>
+<img width="50%" src="https://user-images.githubusercontent.com/113922230/192131067-2028d055-fbcc-4e59-bdda-b6ffbba2dd0a.png">
 
 <h2>List</h2>
 
