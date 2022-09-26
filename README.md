@@ -4,7 +4,7 @@
 
 ## Algorithm
 
-***Algorithm*** berasal dari kata bahasa inggris yang memiliki arti permainan. Contoh: Menebak angka. Cara membuat sebuah algoritma:
+***Algorithm*** berasal dari kata bahasa inggris yang memiliki arti algoritma. Contoh: Menebak sebuah angka dapat dilakukan dari pertengahan prediksi. Cara membuat sebuah algoritma:
 - Permasalahan pernyataan harus jelas
 - Informasi (input) yang didapat dan hasil (output) yang diharapkan harus jelas.
 - Membuat instruksi dan mengeksekusi sesuai urutan.
